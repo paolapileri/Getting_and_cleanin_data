@@ -21,4 +21,4 @@ The data set contains the variables estimated from the mean and standard deviati
 activityType has six types as listed here: 1.WALKING 2.WALKING_UPSTAIRS 3.WALKING_DOWNSTAIRS 4.SITTING 5.STANDING 6.LAYING
 
 x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
-x_data, y_data and subject_data merge the previous datasets to further analysis. Features contains the correct names for the x_data dataset, which are applied to the column names stored.
+x_data, y_data and subject_data merge the previous datasets to further analysis. Features contains the correct names for the x_data dataset, which are applied to the column names stored. 
