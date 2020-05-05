@@ -64,4 +64,4 @@ names(data_activitynames)<-gsub("BodyBody","Body",names(data_activitynames))
 secondTidySet <- aggregate(. ~subjectId + activityType, data_activitynames, mean)
 secondTidySet <- secondTidySet[order(secondTidySet$subjectId, secondTidySet$activityId),]
 
-write.table(secondTidySet, "secondTidySet.txt", row.names =FALSE)
+write.table(secondTidySet, "secondTidySet.txt", row.names =FALSE) 
